@@ -118,7 +118,8 @@ public class Main3Activity extends AppCompatActivity implements View.OnClickList
                 setLocation();
                 break;
             case R.id.btn_ok:
-                if (streetFrom.getText().toString().length() == 0 || houseFrom.getText().toString().length() == 0) {
+                if (streetFrom.getText().toString().length() == 0 || houseFrom.getText().toString().length() == 0 ||
+                        streetTo.getText().toString().length() == 0 || houseTo.getText().toString().length() == 0 ) {
                     Toast toast = Toast.makeText(this, "Some of the fields are empty", Toast.LENGTH_SHORT);
                     toast.show();
                 } else {

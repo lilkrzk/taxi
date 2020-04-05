@@ -23,7 +23,7 @@
         android:layout_marginTop="24dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Street"
+        android:hint="Street"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.34"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,7 +36,7 @@
         android:layout_marginTop="24dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="House"
+        android:hint="House"
         app:layout_constraintStart_toStartOf="@+id/streetFrom"
         app:layout_constraintTop_toBottomOf="@+id/streetFrom" />
 
@@ -56,7 +56,7 @@
         android:layout_marginTop="24dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Street"
+        android:hint="Street"
         app:layout_constraintStart_toStartOf="@+id/houseFrom"
         app:layout_constraintTop_toBottomOf="@+id/tv_to" />
 
@@ -67,7 +67,7 @@
         android:layout_marginTop="24dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="House"
+        android:hint="House"
         app:layout_constraintStart_toStartOf="@+id/streetTo"
         app:layout_constraintTop_toBottomOf="@+id/streetTo" />
 

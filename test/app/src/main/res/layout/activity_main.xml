@@ -35,7 +35,7 @@
     <EditText
         android:id="@+id/et_surname"
         android:layout_width="wrap_content"
-        android:layout_height="45dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -75,7 +75,7 @@
     <TextView
         android:id="@+id/tv_surname"
         android:layout_width="wrap_content"
-        android:layout_height="19dp"
+        android:layout_height="wrap_content"
         android:text="Surname"
         android:textSize="18sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/et_surname"
